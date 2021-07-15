@@ -1,0 +1,19 @@
+{
+  "name": "chat-room-application",
+  "version": "1.0.0",
+  "description": "Chat box application",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Msimelelo Qezu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongo": "^0.1.0",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3"
+  }
+}
